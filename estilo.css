@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+
+    height: 100vh;
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.texto-inicio {
+    font-size: larger;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.mapa-ubi {
+
+    padding: 10px;
+    border: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*-----nosotros-----*/
+
+.texto-nosotros {
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+    justify-content: center;
+}
+
+.titulo-historia {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+/*-----galeria-----*/
+
+img {
+    max-width: 100%;
+}
+
+.gallery {
+    padding: 80px 0;
+
+}
+
+.gallery img {
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+
+/*-----contacto-----*/
+
+.titulo-form {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 20px;
+}
+
+.mb-3 {
+    text-transform: capitalize;
+}
+
+
+/*----tienda----*/
+
+.txt-tienda {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+
+}
+
+.txt-tienda h1 {
+    text-transform: capitalize;
+
+}
+
+
+/*-----footer-----*/
+.fa {
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: solid black .01px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+   
+    color: black;
+}
+
+.fa-twitter {
+    
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-youtube {
+    color: black;
+}
+
